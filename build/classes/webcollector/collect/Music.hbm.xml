@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	 "-//Hibernate/Hibernate Mapping DTD//EN"
+	 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+	
+<hibernate-mapping>
+	<class name="webcollector.collect.Music" table="Music">
+		<meta attribute="class-description">
+		This class contains the student detail. 
+		</meta>
+		<id name="idno" column="idno"  type="string"></id>
+		<property name="name" column="name" type="string"/>
+		<property name="songSinger" column="songSinger" type="string"/>	
+		<property name="url1" column="playurl" type="string"/>	
+		<property name="url2" column="downloadurl" type="string"/>	
+	</class>
+</hibernate-mapping>

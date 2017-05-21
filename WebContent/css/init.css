@@ -1,0 +1,18 @@
+@font-face {
+	font-family: hanyi;
+	src: url("../fonts/hanyi.ttf");
+}
+*{
+	margin: 0px ;
+	padding: 0px ;
+  /*   overflow-y: hidden; */
+	font-family: hanyi;
+}
+body{
+	overflow-x: hidden;
+}
+.ulCreate{
+	list-style: none;
+	float: left;
+}
+/*后台*/
